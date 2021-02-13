@@ -1,7 +1,7 @@
 FROM node:lts-alpine
-LABEL maintainer="None"
-ARG JD_BASE_URL=https://gitee.com/evine/jd-base
-ARG JD_BASE_BRANCH=v3
+LABEL maintainer="Lkiku"
+ARG JD_BASE_URL=https://github.com/Lkiku/Learn_docker
+ARG JD_BASE_BRANCH=main
 ARG JD_SCRIPTS_URL=https://gitee.com/lxk0301/jd_scripts
 ARG JD_SCRIPTS_BRANCH=master
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
